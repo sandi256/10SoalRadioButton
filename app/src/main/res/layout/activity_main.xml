@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latihan Soal Informatika 2"
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:textAlignment="center"
+                android:background="@color/purple_500"
+                android:textColor="#f1f1f1"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="100dp"
+                android:paddingBottom="50dp"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Apakah Bahasa Pemrograman Untuk Aplikasi Android?"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="XML dan C++"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HTML dan PHP"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="XML dan Java"
+                            />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2.
+Layanan yang ditawarkan oleh google dan merupakan layanan untuk menyimpan dokumen atau file secara gratis atau berbayar adalah"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Google Chrome"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Google Drive"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Google Classroom"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Kapasitas penyimpanan gratis yang diberikan oleh google drive untuk setiap akun sebesar "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15GB"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1TB"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="100TB"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Untuk membuat sebuah formulir online, dapat menggunakan layanan"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Google Form"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Google Drive"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Google Classroom"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Dalam membuat formulir pendaftaran untuk jawaban pilihan ganda, maka yang harus dipilih adalah"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Choice"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paragraph"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Short Answer"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Dalam membuat formulir pendaftaran untuk jawaban uraian panjang, maka yang harus dipilih adalah"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Short Answer"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Multiple Choice"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paragraph"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. Sebuah kartu yang dikeluarkan oleh bank untuk pengguna atau nasabah bank untuk pembayaran dengan cara tunai “utang” dinamakan"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kartu Kredit"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kartu ATM"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ID card"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8. Sebuah rekening virtual dimana mereka memberikan layanan jasa untuk transfer dan pembayaran secara online dinamakan"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paypal"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Credit Card"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Transaksi Digital"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9. Aplikasi yang digunakan untuk mengolah kata adalah"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ms Word"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ms Excel"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ms Power Point"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10. Batas atau jarak antara ujung kertas dengan teks disebut"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <RadioGroup
+                        android:id="@+id/rgJawaban10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <RadioButton
+                            android:id="@+id/jwb1_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tittle bar"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb2_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Margin"
+                            />
+                        <RadioButton
+                            android:id="@+id/jwb3_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Home"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/buttonkirim"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white"
+                android:text="Kirim"
+                android:layout_marginLeft="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+</ScrollView>
